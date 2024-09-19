@@ -8,3 +8,7 @@
 ## Activity 2
 ![Screenshot of repo after completion of activity 2](/assets/activityImages/activity2repo.png)
 ![Screenshot of website after completion of activity 2](/assets/activityImages/activity2website.png)
+
+## Activity 3
+![Screenshot of repo after completion of activity 3](/assets/activityImages/activity3repo.png)
+![Screenshot of website after completion of activity 3](/assets/activityImages/activity3website.png)
