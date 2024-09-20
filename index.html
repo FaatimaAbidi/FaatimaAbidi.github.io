@@ -33,26 +33,27 @@
   </script>
 
   <!-- Open Graph-->
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Faatima Abidi | Software Engineer" />
-  <meta property="og:description" content="Software Engineer" />
-  <meta property="og:url" content="https://faatimaabidi.github.io/" />
-  <meta property="og:site_name" content="Faatima Abidi | Software Engineer" />
-  <meta property="article:publisher" content="https://faatimaabidi.github.io/" />
-  <meta property="og:image" content="https://faatimaabidi.github.io/examples/preview.JPG" />
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Faatima Abidi | Software Engineer"/>
+  <meta property="og:description" content="Software Engineer"/>
+  <meta property="og:url" content="https://faatimaabidi.github.io/"/>
+  <meta property="og:site_name" content="Faatima Abidi | Software Engineer"/>
+  <meta property="article:publisher" content="https://faatimaabidi.github.io/"/>
+  <meta property="og:image" content="https://faatimaabidi.github.io/examples/preview.JPG"/>
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@faatima_abidi" />
-  <meta name="twitter:title" content="Developer | Designer | Learner | Engineer" />
-  <meta name="twitter:description" content="Software Engineer" />
-  <meta name="twitter:url" content="https://twitter.com/faatima_abidi" />
-  <meta name="author" content="Faatima Abidi" />
-  <meta name="description" content="Software Engineer with a passion for frontend development and artificial intelligence." />
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@faatima_abidi"/>
+  <meta name="twitter:title" content="Developer | Designer | Learner | Engineer"/>
+  <meta name="twitter:description" content="Software Engineer"/>
+  <meta name="twitter:url" content="https://twitter.com/faatima_abidi"/>
+  <meta name="author" content="Faatima Abidi"/>
+  <meta name="description"
+        content="Software Engineer with a passion for frontend development and artificial intelligence."/>
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png"/>
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png"/>
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png"/>
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png"/>
   <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
   <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
   <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
@@ -71,49 +72,245 @@
   <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
 </head>
 
+<script>
+  const projects = ["          <div class=\"col s12 m6 l4\">\n" +
+  "            <div class=\"card medium\">\n" +
+  "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
+  "                <img alt=\"holidays card\" src=\"/assets/img/project-holidays.png\" style=\"height: 100%; width: 100%\" class=\"activator\" />\n" +
+  "              </div>\n" +
+  "              <div class=\"card-content\">\n" +
+  "                <span class=\"card-title activator teal-text hoverline\">Holidays Card<i\n" +
+  "                    class=\"mdi-navigation-more-vert right\"></i></span>\n" +
+  "                <p>\n" +
+  "                  A web app that displays a holiday card with a custom name entered by the user based on React\n" +
+  "                </p>\n" +
+  "              </div>\n" +
+  "              <div class=\"card-reveal\">\n" +
+  "                <span class=\"card-title teal-text\"><small>Accomplishments</small><i\n" +
+  "                    class=\"mdi-navigation-close right\"></i></span>\n" +
+  "                <ul>\n" +
+  "                  <li><b>Tools:</b> HTML, CSS, TS, React, Repl</li>\n" +
+  "                  <li>Enter name of the person you want to show the card too</li>\n" +
+  "                  <li>See a snowman holidays card with Happy Holidays written and the person's name</li>\n" +
+  "                </ul>\n" +
+  "                <div class=\"card-action\">\n" +
+  "                  <a aria-label=\"Visit the Repl for project\" href=\"https://replit.com/@FaatimaAbidi1/HolidaysCard2023?embed=true\"\n" +
+  "                     target=\"_blank\" data-position=\"top\" data-tooltip=\"View Source\"\n" +
+  "                     class=\"btn-floating btn-large waves-effect waves-light grey tooltipped\"><i\n" +
+  "                          class=\"fa fa-external-link\"></i></a>\n" +
+  "                </div>\n" +
+  "              </div>\n" +
+  "            </div>\n" +
+  "          </div>", "<div class=\"col s12 m6 l4\">\n" +
+  "            <div class=\"card medium\">\n" +
+  "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
+  "                <img alt=\"Screenshot of web app\" src=\"/assets/img/project-tic-tac-toe.png\"\n" +
+  "                style=\"height: 100%; width: 100%\" class=\"activator\" />\n" +
+  "              </div>\n" +
+  "              <div class=\"card-content\">\n" +
+  "                <span class=\"card-title activator teal-text hoverline\">Tic Tac Toe Web App<i\n" +
+  "                    class=\"mdi-navigation-more-vert right\"></i></span>\n" +
+  "                <p>\n" +
+  "                  A web app where two players can play tic tac toe against each other based on React\n" +
+  "                </p>\n" +
+  "              </div>\n" +
+  "              <div class=\"card-reveal\">\n" +
+  "                <span class=\"card-title teal-text\"><small>Accomplishments</small><i\n" +
+  "                    class=\"mdi-navigation-close right\"></i></span>\n" +
+  "                <ul>\n" +
+  "                  <li><b>Tools:</b> HTML, CSS, TS, React, Repl</li>\n" +
+  "                  <li>Take turns placing Xs and Os</li>\n" +
+  "                  <li>See the turn of the current player</li>\n" +
+  "                  <li>See the winner</li>\n" +
+  "                </ul>\n" +
+  "                <div class=\"card-action\">\n" +
+  "                  <a aria-label=\"Visit the Repl for project\" href=\"https://replit.com/@FaatimaAbidi1/TicTacToe?embed=true\"\n" +
+  "                     target=\"_blank\" data-position=\"top\" data-tooltip=\"View Source\"\n" +
+  "                     class=\"btn-floating btn-large waves-effect waves-light grey tooltipped\"><i\n" +
+  "                          class=\"fa fa-external-link\"></i></a>\n" +
+  "                </div>\n" +
+  "              </div>\n" +
+  "            </div>\n" +
+  "          </div>", "          <div class=\"col s12 m6 l4\">\n" +
+  "            <div class=\"card medium\">\n" +
+  "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
+  "                <img alt=\"diabetic retinopathy fundus image\" src=\"/assets/img/project-diabetes.jpg\" style=\"height: 100%; width: 100%\" class=\"activator\" />\n" +
+  "              </div>\n" +
+  "              <div class=\"card-content\">\n" +
+  "                <span class=\"card-title activator teal-text hoverline\">Diabetic Retinopathy Detector<i\n" +
+  "                        class=\"mdi-navigation-more-vert right\"></i></span>\n" +
+  "                <p>\n" +
+  "                  A model that predicts if an eye has diabetic retinopathy given its fundus image\n" +
+  "                </p>\n" +
+  "              </div>\n" +
+  "              <div class=\"card-reveal\">\n" +
+  "                <span class=\"card-title teal-text\"><small>Accomplishments</small><i\n" +
+  "                        class=\"mdi-navigation-close right\"></i></span>\n" +
+  "                <ul>\n" +
+  "                  <li><b>Tools:</b> Python, NumPy, TensorFlow, Pandas, PyTorch</li>\n" +
+  "                  <li>Trained a CNN model with online available dataset to detect diabetic retinopathy given the fundus image</li>\n" +
+  "                  <li>Trained a SVC model as a baseline to check the accuracy of the primary model</li>\n" +
+  "                </ul>\n" +
+  "                <div class=\"card-action\">\n" +
+  "                  <a aria-label=\"Visit the Github gist for project\" href=\"https://gist.github.com/FaatimaAbidi/1bff129267428b0d01e59b30ae04e62e\"\n" +
+  "                     target=\"_blank\" data-position=\"top\" data-tooltip=\"View Source\"\n" +
+  "                     class=\"btn-floating btn-large waves-effect waves-light grey tooltipped\"><i\n" +
+  "                          class=\"fa fa-github\"></i></a>\n" +
+  "                </div>\n" +
+  "              </div>\n" +
+  "            </div>\n" +
+  "          </div>" ,"          <div class=\"col s12 m6 l4\">\n" +
+  "            <div class=\"card medium\">\n" +
+  "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
+  "                <img alt=\"checkers-game\" src=\"/assets/img/project-checkers.png\" style=\"height: 100%; width: 100%\" class=\"activator\" />\n" +
+  "              </div>\n" +
+  "              <div class=\"card-content\">\n" +
+  "                <span class=\"card-title activator teal-text hoverline\">Checkers Game Web App<i\n" +
+  "                    class=\"mdi-navigation-more-vert right\"></i></span>\n" +
+  "                <p>\n" +
+  "                  A web app where two players can play checkers based on VanillaJS\n" +
+  "                </p>\n" +
+  "              </div>\n" +
+  "              <div class=\"card-reveal\">\n" +
+  "                <span class=\"card-title grey-text\"><small>Accomplishments</small><i\n" +
+  "                    class=\"mdi-navigation-close right\"></i></span>\n" +
+  "                <ul>\n" +
+  "                  <li><b>Tools:</b> HTML, CSS, JS, Repl</li>\n" +
+  "                  <li>Move game pieces around</li>\n" +
+  "                  <li>Take turns between both players</li>\n" +
+  "                  <li>See number of pieces left per player</li>\n" +
+  "                  <li>Get notification when someone wins</li>\n" +
+  "                </ul>\n" +
+  "                <div class=\"card-action\">\n" +
+  "                  <a aria-label=\"Visit the Repl for project\" href=\"https://replit.com/@zoya5636/Checkers?embed=true\"\n" +
+  "                    target=\"_blank\" data-position=\"top\" data-tooltip=\"View Source\"\n" +
+  "                    class=\"btn-floating btn-large waves-effect waves-light grey tooltipped\"><i\n" +
+  "                      class=\"fa fa-external-link\"></i></a>\n" +
+  "                </div>\n" +
+  "              </div>\n" +
+  "            </div>\n" +
+  "          </div>", "   <div class=\"col s12 m6 l4\">\n" +
+  "            <div class=\"card medium\">\n" +
+  "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
+  "                <img alt=\"umark\" src=\"/assets/img/project-umark.png\" style=\"height: 100%; width: 100%\" class=\"activator\" />\n" +
+  "              </div>\n" +
+  "              <div class=\"card-content\">\n" +
+  "                <span class=\"card-title activator teal-text hoverline\">Umark<i\n" +
+  "                    class=\"mdi-navigation-more-vert right\"></i></span>\n" +
+  "                <p>\n" +
+  "                  A mark calculating web app based on VanillaJS\n" +
+  "                </p>\n" +
+  "              </div>\n" +
+  "              <div class=\"card-reveal\">\n" +
+  "                <span class=\"card-title grey-text\"><small>Accomplishments</small><i\n" +
+  "                    class=\"mdi-navigation-close right\"></i></span>\n" +
+  "                <ul>\n" +
+  "                  <li><b>Tools:</b> HTML, CSS, JS, Repl</li>\n" +
+  "                  <li>Obtain required mark to gain expected final mark</li>\n" +
+  "                  <li>Enter marks of assignments returned</li>\n" +
+  "                  <li>Add multiple courses</li>\n" +
+  "                  <li>Obtain prediction of final mark given current marks</li>\n" +
+  "                </ul>\n" +
+  "                <div class=\"card-action\">\n" +
+  "                  <a aria-label=\"Visit the Repl for project\" href=\"https://NewHacks2021.zoya5636.repl.co\"\n" +
+  "                    target=\"_blank\" data-position=\"top\" data-tooltip=\"View Source\"\n" +
+  "                    class=\"btn-floating btn-large waves-effect waves-light grey tooltipped\"><i\n" +
+  "                      class=\"fa fa-external-link\"></i></a>\n" +
+  "                </div>\n" +
+  "              </div>\n" +
+  "            </div>\n" +
+  "          </div>", " <div class=\"col s12 m6 l4\">\n" +
+  "            <div class=\"card medium\">\n" +
+  "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
+  "                <img alt=\"hello world mapper\" src=\"/assets/img/project-hello-world.png\" style=\"height: 100%; width: 100%\" class=\"activator\" />\n" +
+  "              </div>\n" +
+  "              <div class=\"card-content\">\n" +
+  "                <span class=\"card-title activator teal-text hoverline\">Hello World Mapper<i\n" +
+  "                        class=\"mdi-navigation-more-vert right\"></i></span>\n" +
+  "                <p>\n" +
+  "                  An app that shows the map of a few cities built on C++ with options to find intersections or routes between intersections\n" +
+  "                </p>\n" +
+  "              </div>\n" +
+  "              <div class=\"card-reveal\">\n" +
+  "                <span class=\"card-title teal-text\"><small>Accomplishments</small><i\n" +
+  "                        class=\"mdi-navigation-close right\"></i></span>\n" +
+  "                <ul>\n" +
+  "                  <li><b>Tools:</b> C++, Glade</li>\n" +
+  "                  <li>Find the closest intersection</li>\n" +
+  "                  <li>Find the path between two intersections</li>\n" +
+  "                  <li>Switch city being viewed</li>\n" +
+  "                  <li>Look for artifacts</li>\n" +
+  "                  <li>Zoom in and out of the map</li>\n" +
+  "                </ul>\n" +
+  "                <div class=\"card-action\">\n" +
+  "                  <a aria-label=\"View the project presentation\" href=\"https://www.beautiful.ai/player/-O77dyJdZWnkyq4jezjM\"\n" +
+  "                     target=\"_blank\" data-position=\"top\" data-tooltip=\"View Source\"\n" +
+  "                     class=\"btn-floating btn-large waves-effect waves-light grey tooltipped\"><i\n" +
+  "                          class=\"fa fa-external-link\"></i></a>\n" +
+  "                </div>\n" +
+  "              </div>\n" +
+  "            </div>\n" +
+  "          </div>" ]
+  function loadOne() {
+    const elem = document.createElement("div")
+    elem.innerHTML = projects[0]
+    document.getElementById("projects-div").appendChild(elem)
+  }
+  function loadMultiple() {
+    if (document.getElementById("projects-div").children.length === 2) {
+      for (let count = 1; count < 6; count++) {
+        const elem = document.createElement("div")
+        elem.innerHTML = projects[count]
+        document.getElementById("projects-div").appendChild(elem)
+      }
+    }
+  }
+</script>
+
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
 
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="/assets/img/initials.png" class="circle img-responsive profile-pic" alt="avatar">
-        </a>
-      </li>
+<!-- Navigation Menu-->
+<!-- Nav class 1 -->
+<nav class="hide-on-small-only">
+  <ul class="side-nav fixed section table-of-contents">
 
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
+    <li class="logo">
+      <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+         class="brand-logo grey-blue-text">
+        <img src="/assets/img/initials.png" class="circle img-responsive profile-pic" alt="avatar">
+      </a>
+    </li>
 
-      <li class="bold">
-        <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
+    <li class="bold">
+      <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+              class="mdi-social-person small"></i><span>About</span></a>
+    </li>
+    <li class="bold">
+      <a aria-label="Navigate to the Experience section" href="#experience"
+         class="waves-effect waves-dark teal-text"><i
+              class="mdi-action-trending-up small"></i><span>Experience</span></a>
+    </li>
 
-      <li class="bold">
-        <!--
-        ICONS:
-        mdi-action-assessment
-        mdi-social-poll
-        mdi-av-equalizer
-        -->
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+    <li class="bold">
+      <!-- mdi-av-web small
+           mdi-av-my-library-books small-->
+      <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+              class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+    </li>
+
+    <li class="bold">
+      <!--
+      ICONS:
+      mdi-action-assessment
+      mdi-social-poll
+      mdi-av-equalizer
+      -->
+      <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
             class="mdi-action-assessment small"></i><span>Skills</span></a>
       </li>
       
@@ -231,20 +428,6 @@
                   <i class="fa fa-github"></i>
                 </button>
               </a>
-
-              <!-- <a href="https://angel.co/u/varad_bhogayata" target="_blank">
-                <button class="icon-btn angellist">
-                  <i class="fa fa-angellist"></i>
-                </button>
-              </a> -->
-
-              <!-- <a href="http://linkedin.com/in/varadbhogayata" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-
-                  </span>
-              </a> -->
             </div>
             <div class='buttons'>
               <a href="#about" class="readme">Read More</a>
@@ -357,195 +540,10 @@
       <h3 class="page-title white-text teal">Projects</h3>
       <div class="container">
         <div class="row">
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="umark" src="/assets/img/project-umark.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Umark<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A mark calculating web app based on VanillaJS
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, JS, Repl</li>
-                  <li>Obtain required mark to gain expected final mark</li>
-                  <li>Enter marks of assignments returned</li>
-                  <li>Add multiple courses</li>
-                  <li>Obtain prediction of final mark given current marks</li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the Repl for project" href="https://NewHacks2021.zoya5636.repl.co"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                </div>
-              </div>
-            </div>
+          <div id="projects-div">
+            <script>loadOne()</script>
           </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="checkers-game" src="/assets/img/project-checkers.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Checkers Game Web App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A web app where two players can play checkers based on VanillaJS
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, JS, Repl</li>
-                  <li>Move game pieces around</li>
-                  <li>Take turns between both players</li>
-                  <li>See number of pieces left per player</li>
-                  <li>Get notification when someone wins</li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the Repl for project" href="https://replit.com/@zoya5636/Checkers?embed=true"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of web app" src="/assets/img/project-tic-tac-toe.png"
-                style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Tic Tac Toe Web App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A web app where two players can play tic tac toe against each other based on React
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, TS, React, Repl</li>
-                  <li>Take turns placing Xs and Os</li>
-                  <li>See the turn of the current player</li>
-                  <li>See the winner</li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the Repl for project" href="https://replit.com/@FaatimaAbidi1/TicTacToe?embed=true"
-                     target="_blank" data-position="top" data-tooltip="View Source"
-                     class="btn-floating btn-large waves-effect waves-light grey tooltipped"><i
-                          class="fa fa-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="holidays card" src="/assets/img/project-holidays.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Holidays Card<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A web app that displays a holiday card with a custom name entered by the user based on React
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, TS, React, Repl</li>
-                  <li>Enter name of the person you want to show the card too</li>
-                  <li>See a snowman holidays card with Happy Holidays written and the person's name</li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the Repl for project" href="https://replit.com/@FaatimaAbidi1/HolidaysCard2023?embed=true"
-                     target="_blank" data-position="top" data-tooltip="View Source"
-                     class="btn-floating btn-large waves-effect waves-light grey tooltipped"><i
-                          class="fa fa-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="diabetic retinopathy fundus image" src="/assets/img/project-diabetes.jpg" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Diabetic Retinopathy Detector<i
-                        class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A model that predicts if an eye has diabetic retinopathy given its fundus image
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                        class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, NumPy, TensorFlow, Pandas, PyTorch</li>
-                  <li>Trained a CNN model with online available dataset to detect diabetic retinopathy given the fundus image</li>
-                  <li>Trained a SVC model as a baseline to check the accuracy of the primary model</li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the Github gist for project" href="https://gist.github.com/FaatimaAbidi/1bff129267428b0d01e59b30ae04e62e"
-                     target="_blank" data-position="top" data-tooltip="View Source"
-                     class="btn-floating btn-large waves-effect waves-light grey tooltipped"><i
-                          class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="hello world mapper" src="/assets/img/project-hello-world.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Hello World Mapper<i
-                        class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  An app that shows the map of a few cities built on C++ with options to find intersections or routes between intersections
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                        class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> C++, Glade</li>
-                  <li>Find the closest intersection</li>
-                  <li>Find the path between two intersections</li>
-                  <li>Switch city being viewed</li>
-                  <li>Look for artifacts</li>
-                  <li>Zoom in and out of the map</li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="View the project presentation" href="https://www.beautiful.ai/player/-O77dyJdZWnkyq4jezjM"
-                     target="_blank" data-position="top" data-tooltip="View Source"
-                     class="btn-floating btn-large waves-effect waves-light grey tooltipped"><i
-                          class="fa fa-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- ************* -->
+          <button style="background: #693F7A; color: white" onclick="loadMultiple()">Load More!</button>
         </div>
       </div>
     </section>
@@ -750,8 +748,6 @@
       backSpeed: 40
     });
   </script>
-
-
 
   <!-- jQuery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
