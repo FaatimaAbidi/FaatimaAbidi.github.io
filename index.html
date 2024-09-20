@@ -73,7 +73,38 @@
 </head>
 
 <script>
-  const projects = ["          <div class=\"col s12 m6 l4\">\n" +
+  const projects = [{dateOfCompletion: 20220430, html: " <div class=\"col s12 m6 l4\">\n" +
+            "            <div class=\"card medium\">\n" +
+            "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
+            "                <img alt=\"hello world mapper\" src=\"/assets/img/project-hello-world.png\" style=\"height: 100%; width: 100%\" class=\"activator\" />\n" +
+            "              </div>\n" +
+            "              <div class=\"card-content\">\n" +
+            "                <span class=\"card-title activator teal-text hoverline\">Hello World Mapper<i\n" +
+            "                        class=\"mdi-navigation-more-vert right\"></i></span>\n" +
+            "                <p>\n" +
+            "                  An app that shows the map of a few cities built on C++ with options to find intersections or routes between intersections\n" +
+            "                </p>\n" +
+            "              </div>\n" +
+            "              <div class=\"card-reveal\">\n" +
+            "                <span class=\"card-title teal-text\"><small>Accomplishments</small><i\n" +
+            "                        class=\"mdi-navigation-close right\"></i></span>\n" +
+            "                <ul>\n" +
+            "                  <li><b>Tools:</b> C++, Glade</li>\n" +
+            "                  <li>Find the closest intersection</li>\n" +
+            "                  <li>Find the path between two intersections</li>\n" +
+            "                  <li>Switch city being viewed</li>\n" +
+            "                  <li>Look for artifacts</li>\n" +
+            "                  <li>Zoom in and out of the map</li>\n" +
+            "                </ul>\n" +
+            "                <div class=\"card-action\">\n" +
+            "                  <a aria-label=\"View the project presentation\" href=\"https://www.beautiful.ai/player/-O77dyJdZWnkyq4jezjM\"\n" +
+            "                     target=\"_blank\" data-position=\"top\" data-tooltip=\"View Source\"\n" +
+            "                     class=\"btn-floating btn-large waves-effect waves-light grey tooltipped\"><i\n" +
+            "                          class=\"fa fa-external-link\"></i></a>\n" +
+            "                </div>\n" +
+            "              </div>\n" +
+            "            </div>\n" +
+            "          </div>"}, {dateOfCompletion: 20231225 , html: "          <div class=\"col s12 m6 l4\">\n" +
   "            <div class=\"card medium\">\n" +
   "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
   "                <img alt=\"holidays card\" src=\"/assets/img/project-holidays.png\" style=\"height: 100%; width: 100%\" class=\"activator\" />\n" +
@@ -101,7 +132,7 @@
   "                </div>\n" +
   "              </div>\n" +
   "            </div>\n" +
-  "          </div>", "<div class=\"col s12 m6 l4\">\n" +
+  "          </div>"}, {dateOfCompletion: 20230511 , html: "<div class=\"col s12 m6 l4\">\n" +
   "            <div class=\"card medium\">\n" +
   "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
   "                <img alt=\"Screenshot of web app\" src=\"/assets/img/project-tic-tac-toe.png\"\n" +
@@ -131,7 +162,7 @@
   "                </div>\n" +
   "              </div>\n" +
   "            </div>\n" +
-  "          </div>", "          <div class=\"col s12 m6 l4\">\n" +
+  "          </div>"}, { dateOfCompletion: 20221204, html: "          <div class=\"col s12 m6 l4\">\n" +
   "            <div class=\"card medium\">\n" +
   "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
   "                <img alt=\"diabetic retinopathy fundus image\" src=\"/assets/img/project-diabetes.jpg\" style=\"height: 100%; width: 100%\" class=\"activator\" />\n" +
@@ -159,7 +190,7 @@
   "                </div>\n" +
   "              </div>\n" +
   "            </div>\n" +
-  "          </div>" ,"          <div class=\"col s12 m6 l4\">\n" +
+  "          </div>"} ,{dateOfCompletion: 20220104, html: "          <div class=\"col s12 m6 l4\">\n" +
   "            <div class=\"card medium\">\n" +
   "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
   "                <img alt=\"checkers-game\" src=\"/assets/img/project-checkers.png\" style=\"height: 100%; width: 100%\" class=\"activator\" />\n" +
@@ -189,7 +220,7 @@
   "                </div>\n" +
   "              </div>\n" +
   "            </div>\n" +
-  "          </div>", "   <div class=\"col s12 m6 l4\">\n" +
+  "          </div>"}, {dateOfCompletion: 20211106, html: "   <div class=\"col s12 m6 l4\">\n" +
   "            <div class=\"card medium\">\n" +
   "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
   "                <img alt=\"umark\" src=\"/assets/img/project-umark.png\" style=\"height: 100%; width: 100%\" class=\"activator\" />\n" +
@@ -219,49 +250,22 @@
   "                </div>\n" +
   "              </div>\n" +
   "            </div>\n" +
-  "          </div>", " <div class=\"col s12 m6 l4\">\n" +
-  "            <div class=\"card medium\">\n" +
-  "              <div class=\"card-image waves-effect waves-block waves-light\">\n" +
-  "                <img alt=\"hello world mapper\" src=\"/assets/img/project-hello-world.png\" style=\"height: 100%; width: 100%\" class=\"activator\" />\n" +
-  "              </div>\n" +
-  "              <div class=\"card-content\">\n" +
-  "                <span class=\"card-title activator teal-text hoverline\">Hello World Mapper<i\n" +
-  "                        class=\"mdi-navigation-more-vert right\"></i></span>\n" +
-  "                <p>\n" +
-  "                  An app that shows the map of a few cities built on C++ with options to find intersections or routes between intersections\n" +
-  "                </p>\n" +
-  "              </div>\n" +
-  "              <div class=\"card-reveal\">\n" +
-  "                <span class=\"card-title teal-text\"><small>Accomplishments</small><i\n" +
-  "                        class=\"mdi-navigation-close right\"></i></span>\n" +
-  "                <ul>\n" +
-  "                  <li><b>Tools:</b> C++, Glade</li>\n" +
-  "                  <li>Find the closest intersection</li>\n" +
-  "                  <li>Find the path between two intersections</li>\n" +
-  "                  <li>Switch city being viewed</li>\n" +
-  "                  <li>Look for artifacts</li>\n" +
-  "                  <li>Zoom in and out of the map</li>\n" +
-  "                </ul>\n" +
-  "                <div class=\"card-action\">\n" +
-  "                  <a aria-label=\"View the project presentation\" href=\"https://www.beautiful.ai/player/-O77dyJdZWnkyq4jezjM\"\n" +
-  "                     target=\"_blank\" data-position=\"top\" data-tooltip=\"View Source\"\n" +
-  "                     class=\"btn-floating btn-large waves-effect waves-light grey tooltipped\"><i\n" +
-  "                          class=\"fa fa-external-link\"></i></a>\n" +
-  "                </div>\n" +
-  "              </div>\n" +
-  "            </div>\n" +
-  "          </div>" ]
+  "          </div>"} ]
   function loadOne() {
+    projects.sort(function(a, b){
+      return b.dateOfCompletion - a.dateOfCompletion
+    })
     const elem = document.createElement("div")
-    elem.innerHTML = projects[0]
+    elem.innerHTML = projects[0].html
     document.getElementById("projects-div").appendChild(elem)
   }
   function loadMultiple() {
+    projects.sort(function(a, b){return b.dateOfCompletion - a.dateOfCompletion});
     if (document.getElementById("projects-div").children.length === 2) {
-      for (let count = 1; count < 6; count++) {
-        const elem = document.createElement("div")
-        elem.innerHTML = projects[count]
-        document.getElementById("projects-div").appendChild(elem)
+      for (let count = 1; count < projects.length; count++) {
+          const elem = document.createElement("div")
+          elem.innerHTML = projects[count].html
+          document.getElementById("projects-div").appendChild(elem)
       }
     }
   }
@@ -299,8 +303,8 @@
     <li class="bold">
       <!-- mdi-av-web small
            mdi-av-my-library-books small-->
-      <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-              class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      <a aria-label="Navigate to the Recent Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+              class="mdi-av-my-library-books small"></i><span>Recent Projects</span></a>
     </li>
 
     <li class="bold">
@@ -376,8 +380,8 @@
             class="mdi-action-trending-up small"></i><span>Experience</span></a>
       </li>
       <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+        <a aria-label="Navigate to the Recent Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Recent Projects</span></a>
       </li>
       <li class="bold">
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
@@ -537,7 +541,7 @@
 
     <!-- Fourth Section: Projects -->
     <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
+      <h3 class="page-title white-text teal">Recent Projects</h3>
       <div class="container">
         <div class="row">
           <div id="projects-div" style="width: 100%">
